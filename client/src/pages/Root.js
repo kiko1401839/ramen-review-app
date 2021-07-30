@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-dom-router";
-import { getRestaurant } from "../api.js";
+import { Link } from "react-router-dom";
+import { getRestaurants } from "../api.js";
 import { Loading, Restaurant } from "../components";
 
 export function RootPage() {
